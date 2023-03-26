@@ -1,0 +1,19 @@
+{
+  "id": "trane::n_back",
+  "name": "N-Back",
+  "dependencies": [],
+  "description": "Practice n-back memory exercises",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": null,
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "course_instructions.md"
+    }
+  },
+  "generator_config": {
+    "KnowledgeBase": {}
+  }
+}

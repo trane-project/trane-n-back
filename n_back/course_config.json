@@ -1,0 +1,899 @@
+{
+    "manifest": {
+        "id": "trane::n_back",
+        "name": "N-Back",
+        "description": "Practice n-back memory exercises",
+        "authors": [
+            "The Trane Project"
+        ],
+        "course_instructions": {
+            "MarkdownAsset": {
+                "path": "course_instructions.md"
+            }
+        },
+        "generator_config": {
+            "KnowledgeBase": {}
+        }
+    },
+    "lessons": [
+        {
+            "short_id": "single_2_back_5s",
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 2-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_2_back_3s",
+            "dependencies": [
+                "single_2_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 2-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_2_back_2s",
+            "dependencies": [
+                "single_2_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 2-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_3_back_5s",
+            "dependencies": [
+                "single_2_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 3-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_3_back_3s",
+            "dependencies": [
+                "single_3_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 3-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_3_back_2s",
+            "dependencies": [
+                "single_3_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 3-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_4_back_5s",
+            "dependencies": [
+                "single_3_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 4-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_4_back_3s",
+            "dependencies": [
+                "single_4_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 4-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_4_back_2s",
+            "dependencies": [
+                "single_4_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 4-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_5_back_5s",
+            "dependencies": [
+                "single_4_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 5-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_5_back_3s",
+            "dependencies": [
+                "single_5_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 5-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_5_back_2s",
+            "dependencies": [
+                "single_5_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 5-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_6_back_5s",
+            "dependencies": [
+                "single_5_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 6-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_6_back_3s",
+            "dependencies": [
+                "single_6_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 6-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_6_back_2s",
+            "dependencies": [
+                "single_6_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 6-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_7_back_5s",
+            "dependencies": [
+                "single_6_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 7-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_7_back_3s",
+            "dependencies": [
+                "single_7_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 7-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_7_back_2s",
+            "dependencies": [
+                "single_7_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 7-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_8_back_5s",
+            "dependencies": [
+                "single_7_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 8-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_8_back_3s",
+            "dependencies": [
+                "single_8_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 8-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_8_back_2s",
+            "dependencies": [
+                "single_8_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 8-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_9_back_5s",
+            "dependencies": [
+                "single_8_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 9-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_9_back_3s",
+            "dependencies": [
+                "single_9_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 9-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_9_back_2s",
+            "dependencies": [
+                "single_9_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 9-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_10_back_5s",
+            "dependencies": [
+                "single_9_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 10-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_10_back_3s",
+            "dependencies": [
+                "single_10_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 10-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_10_back_2s",
+            "dependencies": [
+                "single_10_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 10-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_11_back_5s",
+            "dependencies": [
+                "single_10_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 11-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_11_back_3s",
+            "dependencies": [
+                "single_11_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 11-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_11_back_2s",
+            "dependencies": [
+                "single_11_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 11-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_12_back_5s",
+            "dependencies": [
+                "single_11_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 12-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_12_back_3s",
+            "dependencies": [
+                "single_12_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 12-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "single_12_back_2s",
+            "dependencies": [
+                "single_12_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice single 12-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_2_back_5s",
+            "dependencies": [
+                "single_4_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 2-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_2_back_3s",
+            "dependencies": [
+                "dual_2_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 2-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_2_back_2s",
+            "dependencies": [
+                "dual_2_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 2-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_3_back_5s",
+            "dependencies": [
+                "dual_2_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 3-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_3_back_3s",
+            "dependencies": [
+                "dual_3_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 3-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_3_back_2s",
+            "dependencies": [
+                "dual_3_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 3-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_4_back_5s",
+            "dependencies": [
+                "dual_3_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 4-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_4_back_3s",
+            "dependencies": [
+                "dual_4_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 4-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_4_back_2s",
+            "dependencies": [
+                "dual_4_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 4-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_5_back_5s",
+            "dependencies": [
+                "dual_4_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 5-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_5_back_3s",
+            "dependencies": [
+                "dual_5_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 5-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_5_back_2s",
+            "dependencies": [
+                "dual_5_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 5-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_6_back_5s",
+            "dependencies": [
+                "dual_5_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 6-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_6_back_3s",
+            "dependencies": [
+                "dual_6_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 6-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "dual_6_back_2s",
+            "dependencies": [
+                "dual_6_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice dual 6-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "triple_2_back_5s",
+            "dependencies": [
+                "dual_6_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice triple 2-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "triple_2_back_3s",
+            "dependencies": [
+                "triple_2_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice triple 2-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "triple_2_back_2s",
+            "dependencies": [
+                "triple_2_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice triple 2-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "triple_3_back_5s",
+            "dependencies": [
+                "triple_2_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice triple 3-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "triple_3_back_3s",
+            "dependencies": [
+                "triple_3_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice triple 3-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "triple_3_back_2s",
+            "dependencies": [
+                "triple_3_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice triple 3-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "triple_4_back_5s",
+            "dependencies": [
+                "triple_3_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice triple 4-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "triple_4_back_3s",
+            "dependencies": [
+                "triple_4_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice triple 4-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "triple_4_back_2s",
+            "dependencies": [
+                "triple_4_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice triple 4-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "quad_2_back_5s",
+            "dependencies": [
+                "triple_3_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice quad 2-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "quad_2_back_3s",
+            "dependencies": [
+                "quad_2_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice quad 2-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "quad_2_back_2s",
+            "dependencies": [
+                "quad_2_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice quad 2-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "quad_3_back_5s",
+            "dependencies": [
+                "quad_2_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice quad 3-back mode with 5 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "quad_3_back_3s",
+            "dependencies": [
+                "quad_3_back_5s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice quad 3-back mode with 3 seconds per trial."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "quad_3_back_2s",
+            "dependencies": [
+                "quad_3_back_3s"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice quad 3-back mode with 2 seconds per trial."
+                    ]
+                }
+            ]
+        }
+    ]
+}
