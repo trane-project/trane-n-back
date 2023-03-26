@@ -10,7 +10,7 @@ mod test {
         // Copy courses directory to a temp directory.
         let temp_dir = tempfile::tempdir()?;
         fs_extra::dir::copy(
-            "courses",
+            "n_back",
             temp_dir.path(),
             &fs_extra::dir::CopyOptions::new(),
         )?;
