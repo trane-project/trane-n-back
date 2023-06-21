@@ -20,7 +20,7 @@ guide](https://trane-project.github.io/quick_start.html)
 # Course structure
 
 The course starts you on the easiest type of exercise (single 1-back mode with 5 seconds per trial),
-and gradually increases the difficulty as you progress.
+and gradually increases the difficulty as you master each exercise.
 
 A few examples of how exercises are written are presented below:
 
