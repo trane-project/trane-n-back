@@ -13,7 +13,7 @@ series of stimuli. For a meta-analysis of the claims of N-back exercises, see th
 - Install Brain Workshop from [http://brainworkshop.net/](http://brainworkshop.net/).
 - Install Trane using the instructions from the [quick start
 guide](https://trane-project.github.io/quick_start.html)
-- Install this course by running the command  `repository add
+- Install this course by running the command `repository add
   https://github.com/trane-project/trane-n-back.git` inside trane.
 - Open the trane library again to reload the contents.
 
@@ -42,6 +42,6 @@ practicing with 5 seconds per trial, and then you can move to 3 seconds per tria
 
 The number of trials is up to the user, but I usually go for 20 trials per exercise.
 
-To work with exercise type, you need to select the specified mode in Brain Workshop by selecting it
+To work with each exercise, you need to select the specified mode in Brain Workshop by picking it
 in the manual mode options. See the [documentation](http://brainworkshop.net/details.html) for more
 info.
